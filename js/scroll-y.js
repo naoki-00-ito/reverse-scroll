@@ -7,12 +7,11 @@ document.addEventListener(
   function (event) {
     event.preventDefault();
 
-    const scrollAmount = -event.deltaY * 6;
+    const scrollAmount = -event.deltaY * 3;
 
     window.scrollBy({
       top: scrollAmount,
       left: 0,
-      behavior: "smooth"
     });
   },
   { passive: false }
