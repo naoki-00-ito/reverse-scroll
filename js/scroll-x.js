@@ -11,7 +11,6 @@ window.addEventListener("load", function () {
     marginLeft: (num - 1) * 100 * -1 + "%"
   });
   gsap.set(items, { width: 100 / num + "%" });
-  gsap.set(items, { width: 100 / num + "%" });
 
   gsap.to(items, {
     xPercent: 100 * (num - 1),
